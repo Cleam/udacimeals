@@ -47,7 +47,6 @@ function food(state = {}, action) {
         ...state,
         [recipe.label]: recipe
       }
-      break;
     default:
       return state
   }
