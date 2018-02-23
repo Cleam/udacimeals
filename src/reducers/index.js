@@ -40,9 +40,9 @@ const initialCalendarState = {
 };
 
 function food(state = {}, action) {
-  const { recipe } = action
-  switch (action.key) {
+  switch (action.type) {
     case ADD_RECIPE:
+      const { recipe } = action
       return {
         ...state,
         [recipe.label]: recipe
