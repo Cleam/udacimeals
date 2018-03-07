@@ -182,7 +182,7 @@ function mapStateToProps({ food, calendar }) {
 
         return meals
       }, {})
-    })),
+    }))
   }
 }
 
